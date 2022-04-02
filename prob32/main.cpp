@@ -15,6 +15,7 @@ int main()
     for (i = 0; i < n; i++)
         scanf("%d", &(a[i]));
 
+    // 선택정렬
     for (i = 0; i < n - 1; i++)
     {
         idx = i;

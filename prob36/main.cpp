@@ -15,6 +15,7 @@ int main()
     for (i = 0; i < n; i++)
         scanf("%d", &(a[i]));
 
+    // 삽입정렬
     // 0번째는 건너뜀
     for (i = 1; i < n; i++)
     {
